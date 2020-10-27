@@ -2,14 +2,27 @@
 <head>
 <meta charset="utf-8">
 <title>Home</title>
-<meta name="viewport" content="width=device-width", initial-scale=1.0>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style type="text/css">
 header {
-    background-color:lime;
+    background-color:rgba(22,22,23,0.8);
+    padding-bottom: 0em;
+    
     height: 5%;
     
 }
-
+footer{
+    background-color: rgb(16, 16, 70);
+    height:5%;
+    float:
+}
+div{
+    display:block;
+}
+h1{
+font-size: 5em;
+position: relative;
+}
  ul {
     list-style-type: none;
     
@@ -19,54 +32,99 @@ header {
 li{
     display: inline-block;
     float: right;
-    padding-right: 1em;
+    
    
 }
- li a{
-   display:flex;
-   height: 100%;
+ nav a{
+   display:inline-block;
    float: right;
-    padding-top: 0;
+   
+   margin-right: 0.7em;
+    padding-top: 0.2em;
     padding-bottom: 0;
-}
-li a:hover{
-   
-   background-color:rgba(255, 255,255, 0.75); 
-   
-
-
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 1.25em;
+    color:rgb(165, 165, 165);
     
-  
-    
+
 }
-.damjan{
-    float: left;
-    padding-left:0.7em;
-    padding-top: 0.4em;
+nav a:hover{
+   
+  color:rgba(255, 255,255, 0.75); 
 }
+
 .format{
-    padding-top: 0.3em;
+    padding-top: 0.4em;
+    font-weight: lighter;
+   
 }
-
+.active{
+    padding-top: 0.4em;
+    font-weight: lighter;
+    color:rgba(255, 255, 255, 0.938);
+   
+}
+.background{
+    background-color: rgba(199, 199, 199, 0.479);
+     margin:0 0 8 0;
+}
+.bodydiv{
+    text-align: center;
+    font-size: 4em;
+    width:90%;
+    display:inline-block;
+    
+    height:100%;
+    background-color: rgb(255, 255, 255);
+}
+.bodydivstranicno{
+    display:inline-block;
+    text-align: center;
+    font-size: 4em;
+    width:5%;
+    
+    height:90%;
+   
+}
+nav{
+    position: relative right;
+padding-right:3em;
+}
+.log{
+    padding-top:0.2em;
+    padding-left: 1em;
+    float:left;
+    font-size: 2em;
+    color:rgb(219, 219, 219);
+}
 
 </style>
 </head>
-<body style="background-color: rgba(199, 199, 199, 0.479);">
+<body class="background">
+   <div>
     <header>
-        
-        <ul>
-            <li class="damjan">Damjan Mijakovski</li>
-            
-            <li><a><span class="format">Contact</span></a></li>
-            <li><a><span class="format"> New Guests</span></a></li>
-            <li><a><span class="format">Favorite Things</span></a></li>
-            <li><a><span class="format">My Blog</span></a></li>
-            <li><a><span class="format">My Gallery</span></a></li>
-            <li><a><span class="format">Home</span></a></li>
-        </ul>
+        <div class="log" >DM</div>
+     
+        <nav>
+            <a href="https://www.facebook.com/"><span class="format">Contact</span></a>
+            <a href="https://www.facebook.com/"><span class="format"> New Guests</span></a>
+            <a href="https://www.facebook.com/"><span class="format">Favorite Things</span></a>
+            <a href="https://www.facebook.com/"><span class="format">My Blog</span></a>
+            <a href="https://www.facebook.com/"><span class="format">My Gallery</span></a>
+            <a href="https://www.facebook.com/"><span class="active">Home</span></a></nav>
+
+        </nav>
   
     </header>
-    
+</div>
+
+    <div class="bodydivstranicno">Zdravo</div>
+    <div class="bodydiv">Zdravo</div>
+   
+
+<div><footer></footer></div>
+
 
 
 
