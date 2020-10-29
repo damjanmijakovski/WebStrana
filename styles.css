@@ -1,0 +1,238 @@
+/*header background*/
+.header_background{
+height: 100%;
+background-image:url(back1.jpg);
+background-repeat:no-repeat;
+background-size: cover;
+background-position:center;
+background-position-y: top;
+
+}
+body{margin:0 0 0 0}
+
+
+/*Navigation bar */
+.nav_bar_global{
+list-style-type: none;
+  margin: 0;
+  display:block;
+ padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  height: 5%;
+
+}
+.nav_bar_global li{
+    float: left;
+    
+}
+.nav_bar_global li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin:auto;
+  }
+  .nav_bar_global li a:hover {
+    background-color: #111;
+  }
+
+  /*Content container*/
+  /*Home*/
+  .container_home_main{
+    display:block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 25%;
+    margin-right:25%;
+      width: 50%;      
+}
+.container_home_main:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.container_status_home{
+    float:left;
+    width:50%;
+    height: auto;
+}
+.container_home_main_text{
+    font-family: sans-serif;
+    margin-top:30%; 
+    margin-bottom:30%;
+    height:40%;
+    width:auto;
+}
+.container_home_main_text h1{
+    font-weight: bolder;
+}
+.container_home_main_text p{
+    font-weight: bold;
+}
+/*FAVORITES*/
+.container_favorite_main{
+    display:block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin:auto;
+      width: 60%;
+      font-family: sans-serif;
+
+}
+.container_favorite_main:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.container_status_favorite{
+    float:left;
+    padding-top:5%;
+    width:33.3%;
+    
+}
+.favorite_header{
+    text-align: center;
+    font-family: sans-serif;
+    width: 100%;
+    background-color: cornflowerblue;
+    color:rgba(rgba(71, 71, 71, 0.808), green, blue, alpha);
+    height:10%;
+}
+.favorite_header h2{
+    margin:0 0 0 0;
+}
+.favorite_header {
+    font-weight: bold;
+}
+#Movies .container_status_favorite p{
+    color:black;
+    text-align: center;
+    font-size: 2em;
+    font-family: sans-serif;
+    font-stretch: expanded;}
+#Music .container_status_favorite p{
+    color:black;
+    text-align: center;
+    font-size: 2em;
+    font-family: sans-serif;
+    font-stretch: expanded;
+}
+ #Food .container_status_favorite p{
+    color:whitesmoke;
+    text-align: center;
+    font-size: 2em;
+    font-family: sans-serif;
+    font-stretch: expanded;
+    
+}
+
+#Music{
+    background-image: url(music.jpg);
+    padding-bottom:5%;
+}
+#Food{
+    background-image: url(food.jpg);
+    padding-bottom:5%;
+   
+}
+#Movies{
+    background-image: url(movies.jpg);
+    padding-bottom: 5%;
+}
+/*GALERIJA*/
+.container_gallery_main{
+    display:block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin:auto;
+      width: 70%;
+
+}
+.container_gallery_main:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.container_status_gallery{
+    float:left;
+    width:33.3%;
+}
+.galerija_format{
+    margin:10%;
+    margin-top: 5%;
+    border-radius: 15px;
+}
+
+/*Forma*/
+.container_form_main{
+    display:block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10%;
+    margin-right:15%;
+      width: 70%;
+
+}
+.container_form_main:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.container_status_form{
+    float:left;
+    width:33.3%;
+}
+/*Contact*/
+.container_contact_main{
+    display:block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10%;
+    margin-right:15%;
+      width: 70%;
+
+}
+.container_contact_main:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.container_status_contact{
+   text-align: center;
+    margin:auto;
+    width:33.3%;
+}
+/*Naslov na sekcija*/
+.section_header{
+background-color: steelblue;
+width: 100%;
+height:5%;
+text-align: center;
+
+
+}
+
+.section_header h1{
+    font-size: 2em;
+    color:whitesmoke;
+    font-weight: bolder;
+    font-family:sans-serif,arial;
+    margin:0 0 0 0;
+}
+/*profilna*/
+.profilna{
+    margin-top:30%; 
+    margin-bottom:30%;
+    height:40%;
+    width:auto;
+    border-radius: 15px;
+}
+/*footer*/
+footer{
+    background-color: brown;
+    height:10%;
+}
