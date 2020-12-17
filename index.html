@@ -58,11 +58,7 @@
         </div>
     <div class="content_main">
     <div class="content_container">
-      <div class="content column-33" style="text-align: center">
-        <form id="upload">
-        <input type="file" id="myFile" name="filename">
-        <input type="submit" onclick="upload()">
-      </form></div>
+      
         <div class="content column-33"><img src="nature2.jpg" class="image" onclick="openModal();currentSlide(1)"></div>
         <div class="content column-33"><img src="back1.jpg" class="image" onclick="openModal();currentSlide(2)"></div>
         <div class="content column-33"><img src="placeholder.jpg" class="image" onclick="openModal();currentSlide(3)"></div>
@@ -445,7 +441,7 @@
     <div class="content_container">
         <div class="content contact">
           <p>Feel free to contact me</p>
-          <form method="POST">
+          <form id="contact_form">
              <p><label>Enter your email:
                  <input type = "email" id="email" placeholder="email@email.com" >
                  </label>
